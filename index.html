@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine? 💕</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="canvas-container"></div>
+    <div id="hearts-container"></div>
+
+    <div class="content">
+        <h1 class="question">Будешь ли моей Валентинкой?</h1>
+        <p class="yay-text" id="yay-text">Договор о бесконечных обнимашках подписан! 💕</p>
+
+        <div class="buttons">
+            <button class="btn btn-yes" id="btn-yes">Да</button>
+            <button class="btn btn-no" id="btn-no">Нет</button>
+        </div>
+
+        <div class="gif-container" id="gif-container">
+            <iframe src="https://tenor.com/embed/26050335" frameborder="0" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+        }
+    }
+    </script>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>
