@@ -11,14 +11,6 @@ body {
     overflow: hidden;
 }
 
-/* Three.js */
-#canvas-container {
-    position: fixed;
-    inset: 0;
-    z-index: 1;
-    pointer-events: none;
-}
-
 /* Hearts */
 #hearts-container {
     position: fixed;
@@ -45,7 +37,7 @@ body {
 /* Content */
 .content {
     position: fixed;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
@@ -139,17 +131,6 @@ body {
     height: 235px;
     max-width: 90vw;
     border-radius: 15px;
-}
-
-/* Loading */
-.loading {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #ff6b9d;
-    font-size: 1.2rem;
-    z-index: 100;
 }
 
 /* Mobile */
